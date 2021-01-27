@@ -1,0 +1,144 @@
+@media(max-width:1250px){
+    .wrap{
+        width: 90%;
+        margin: 0px auto;
+    }
+    #banner h1{
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+        margin: 33px auto;
+    }
+    .card{
+        width: 17%;
+        margin: 1.45%;
+    }
+    .card p{
+        display: block;
+        width: 90%;
+        margin: 0px auto;
+        text-align: center;
+
+    }
+
+    #articles{
+        width: 65%;
+    }
+    #articles article{
+        width: 97%;
+    }
+    #footer .wrap > div{
+        width: 24%;
+    }
+    #footer #browser img{
+        width: 14%;
+    }
+    #footer h5{
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:952px){
+    .card .category{
+        font-size: 17px;
+    }
+    .card .description{
+        font-size: 14px;
+    }
+    #articles{
+        width: 61%;
+    }
+}
+
+@media(max-width: 950px){
+    #footer h5{
+        font-size: 22px;
+    }
+    #footer .wrap > div{
+        width: 26%;
+        margin: 25px;
+    }
+    
+}
+
+@media(max-width: 925px){
+
+    #menu{
+        margin-right: 100px;
+    }
+    
+    #lateral{
+        width: 25%;
+    }
+    #articles{
+        width: 65%;
+    }
+
+    #lateral input[type='text']{
+        width: 78%;
+    }
+
+    .aside-box{
+        width: 95%;
+        min-height: 240px;
+        height: auto;
+        padding-bottom: 10px;
+
+    }
+    #login a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+        
+    }
+    #login input[type='email'],
+    #login input[type='password']{
+        width: 65%;
+    }
+
+    #login #user,
+    #login #password{
+        margin-left: 24px;
+    }
+
+    #login input[type='submit'],
+    #login input[type='button'],
+    #login input[type='reset'],
+    #login button{
+        margin-bottom: 0px;
+    }
+    #login input[type='reset']{
+        display: none;
+    }
+    #footer .wrap > div{
+        width: 25%;
+    }
+
+}
+
+@media(max-width: 899px){
+    #lateral h3{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 799px){
+    #banner h1{
+        font-size: 29px;
+    }
+    .card{
+        height: auto;
+    }
+    .card .category{
+        font-size: 15px;
+        margin-top: -23px;
+    }
+    .card .description{
+        display: none;
+    }
+    #footer img{
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+}

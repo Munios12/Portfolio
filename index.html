@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alejandro Muñoz Navarro</title>
+    <link rel="stylesheet" href="styless.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Sarpanch:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+  </head>
+  <body>
+    <main class="stop_scroll">
+
+      <div class="overlay hidden"></div>
+
+      <section class="header" id="home">
+        <!-- <h2 class="header_logo"><a href="#">HOME</a></h2> -->
+        
+        <div class="hamburguer-bt" id="lock">
+          <div class="hamburguer-bt__stripe hamburguer-bt__stripe__top"></div>
+          <div class="hamburguer-bt__stripe hamburguer-bt__stripe__middle"></div>
+          <div class="hamburguer-bt__stripe hamburguer-bt__stripe__bottom"></div>
+        </div>
+
+        <ul class="header_list">
+          <li class="header_item"><a href="#about_me">SOBRE MI</a></li>
+          <li class="header_item"><a href="#intereses">INTERESES</a></li>
+          <li class="header_item"><a href="#techno">TECNOLOGIAS</a></li>
+          <li class="header_item"><a href="#contact">CONTACTO</a></li>
+        </ul>
+        <div class="welcome">
+          <p>Para más información:</p>
+          <button class="button_contact">CONTACTO</button>
+        </div>
+        
+        <div class="projects hidden">
+          <h1><a>PROYECTOS</a></h1>
+          <ol class="proyectos">
+            <li class="pig-game"><a href="projects/Pig_Game/index.html">PIG GAME</a></li>
+            <li><a href="projects/GuessMyNumber/index.html">GUESS NUMBER GAME</a></li>
+            <li><a href="projects/BUTTON/index.html">BUTTON</a></li>
+            <li><a href="projects/maquetacion-1/index.html">MAQUETACION 1</a></li>
+            <li><a href="projects/maquetacion-2/index.html">MAQUETACION 2</a></li>
+          </ol>
+        </div>
+
+        <div class="overlay hidden"></div>
+        <div class="modal hidden">
+          <button class="close_modal">&times;</button>
+          <h1>TRABAJEMOS JUNTOS</h1>
+          <p>
+            Puedes localizarme siempre que quieras a través de mi correo electrónico !
+          </p>
+          <br>
+          <br>
+          <p> alex12munozgeo@hotmail.es 📧</p>
+      </div>
+      <script src="script.js"></script>
+      
+
+
+      </section>
+      <div id="scroll-y">
+        <section class="body" id="about_me">
+          <div class="container">
+            <div class="card">
+              <div class="imgBx">
+                <img src="img/alehandro.jpg" alt="#" />
+              </div>
+              <div class="content">
+                <h2>Alejandro</h2>
+                <p>
+                  Mi nombre es Alejandro Muñoz, Geólogo y frontend developer desde
+                  hace 6 meses
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgBx">
+                <img src="img/card_geo_rec.jpg" alt="#" />
+              </div>
+              <div class="content">
+                <h2>Geología</h2>
+                <p>
+                  Licenciado en Geología por la Universidad de Barcelona.
+                  Apasionado y aficionado de los minerales
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgBx">
+                <img src="img/card_fe_rec.jpg" alt="#" />
+              </div>
+              <div class="content">
+                <h2>Frontend developer</h2>
+                <p>
+                  Mi objetivo es poder dedicarme al mundo del desarrollo web.
+                  Tengo 8 meses de experiencia académica en frontend
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="intereses_container" id="intereses">
+          <div class="interesesBx" >
+            <img src="icons/atom.png" alt="">
+            <h2>Divulgación científica</h2>
+            <p>Apasionado de la divulgación en general. Me gusta leer libros de Astronomia, Fisica, Geología y Química.</p>
+          </div>
+          <div class="interesesBx">
+            <img src="icons/geology.png" alt="">
+            <h2>Geología</h2>
+            <p>Especialmente siento interes por los minerales, me gusta asistir a meetings. Me interesa el mercado y la compra-venta de minerales.</p>
+          </div>
+          <div class="interesesBx">
+            <img src="icons/web-development.png" alt="">
+            <h2>Desarrollo Web</h2>
+            <p>Descubrí este mundo gracias a mis amigos y sé que quiero dedicarme profesionalmente.</p>
+          </div>
+          <div class="interesesBx">
+            <img src="icons/piano.png" alt="">
+            <h2>Música</h2>
+            <p>En mi tiempo libre me gusta tocar el piano. Llevo varios años disfrutando con este instrumento.</p>
+          </div>
+          <div class="interesesBx">
+            <img src="icons/artificial-intelligence.png" alt="">
+            <h2>Inteligencia Artificial</h2>
+            <p>Dentro del mundo de la programación lo que mas me llama la atención es la IA, aunque prefiero empezar por la base, me gustaría introducirme en esta rama. </p>
+          </div>
+        </section>
+
+        <section class="technologies" id="techno">
+          <div class="techBX">
+            <div class="techPercent html_card">
+              <svg>
+                <circle cx='70' cy='70' r='70'></circle>
+                <circle cx='70' cy='70' r='70'></circle>
+              </svg>
+              <div class="techNum">
+                <h2>60<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="techTx">HTML</HTML></h2>
+          </div>
+
+            <div class="techBX css_card">
+              <div class="techPercent">
+                <svg>
+                  <circle cx='70' cy='70' r='70'></circle>
+                  <circle cx='70' cy='70' r='70'></circle>
+                </svg>
+                <div class="techNum">
+                  <h2>40<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="techTx">CSS</HTML></h2>
+            </div>
+
+              <div class="techBX js_card">
+                <div class="techPercent">
+                  <svg>
+                    <circle cx='70' cy='70' r='70'></circle>
+                    <circle cx='70' cy='70' r='70'></circle>
+                  </svg>
+                  <div class="techNum">
+                    <h2>30<span>%</span></h2>
+                  </div>
+                </div>
+                <h2 class="techTx">Javascript</HTML></h2>
+              </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <a href="https://www.linkedin.com/in/alejandro-mu%C3%B1oz-navarro-493a38b6/" class="btn--contact"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/alex.munoznavarro.1" class="btn--contact"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/Munios12" class="btn--contact"><i class="fab fa-twitter"></i></a>
+
+        </section>
+      
+      </div>
+      
+      <footer class="footer">
+        
+        <div><p>@Desarrollado por Alejandro Muñoz Web</p>
+        Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      </footer>
+    </main>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".welcome"), {
+        max: 8,
+        speed: 100,
+      });
+    </script>
+  </body>
+</html>
